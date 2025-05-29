@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grouping tags</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgray;
+      margin: 0px;
+    }
+
+    header{
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+    nav {
+      background-color: rgb(53, 51, 51);
+      padding: 3px;
+      box-shadow: 5px 5px 10px 2px  black;
+      
+    }
+    nav > a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-right: 10px;
+
+    }
+
+    nav > a:hover{
+      color: darkblue;
+      text-decoration: underline;
+    }
+    main{
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px 0px;
+      box-shadow: 2px 3px 4px 2px;
+    }
+    footer{
+      background-color: black;
+      color: white;
+      padding: 4px;
+      margin: 0px;
+      text-align: center;
+    }
+    article > aside{
+      background-color: grey;
+    }
+
+    article{
+      background-color: lightgray;
+    }
+    footer > a{
+      margin: 0px;
+    }
+
+    #bola{
+      height: 100px;
+      width: 100px;
+      margin: 10px;
+      background-color: white;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <nav>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+      <a href="#">link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos"></section>
+    <section id="noticias">
+      <article>
+        <h2>Noticias sobre a seleção</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi obcaecati, illum deleniti culpa repudiandae aperiam dolore modi magni rem sunt esse? Animi, sunt officiis corporis inventore tenetur nostrum excepturi tempore.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad velit ducimus tempora iusto tempore, minima maiores maxime expedita voluptates doloremque ab praesentium eveniet delectus inventore! Error voluptas quidem repellat quas!
+        </p>
+        <aside>
+          <p>Artigo escrito por Micael Saciloto</p>
+        </aside>
+      </article>
+      
+      <article>
+
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido pelo Micael Saciloto</p>
+  </footer>
+  <div id="bola">
+
+
+  </div>
+</body>
+</html>
